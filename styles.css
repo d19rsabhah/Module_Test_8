@@ -1,0 +1,63 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2, h3, p {
+    text-align: left;
+}
+
+#picture-container {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#current-image-container {
+    text-align: left;
+}
+
+#current-image-container img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#image-title {
+    margin-bottom: 10px;
+}
+
+#image-description {
+    color: white;
+}
+
+#search-form {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#search-history {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+#search-history li {
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+#search-history li:hover {
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+#search-history li.selected {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    font-weight: bold;
+}
