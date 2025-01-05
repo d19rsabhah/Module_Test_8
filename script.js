@@ -219,7 +219,7 @@ function addSearchToHistory(date) {
   searchItem.addEventListener("click", () => getImageOfTheDay(date));
   searchHistory.appendChild(searchItem);
 }
-
+//bhjvk
 function loadSearchHistory() {
   const searchHistory = document.getElementById("search-history");
   let searches = JSON.parse(localStorage.getItem("searches")) || [];
